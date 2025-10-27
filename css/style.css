@@ -116,6 +116,13 @@ h3 {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
 
 /* Header */
 header {
@@ -196,7 +203,7 @@ span {
   .blog {
     grid-template-areas:
       'a1 a2 a6'
-      'a3 a4 a5';
+      'a4 a5 a3';
   }
   .blog-article img {
     width: 100%;
