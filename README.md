@@ -18,5 +18,3 @@ Project contains multi-page Home, About me and Articles page.
 
 ## Home Page
 
-![Home Desktop Page](DesktopLearningJournal.png)
-![Home Mobile Page](MobileLearningJournal.png)
