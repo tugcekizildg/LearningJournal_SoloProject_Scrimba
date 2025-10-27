@@ -10,7 +10,7 @@ Project contains multi-page Home, About me and Articles page.
 - Use Grid System in Blog section
 - Make Page responsive
 - Consider accessibility rules
-- Code according to DIY principles
+- Code according to DRY principles
 - Stretch Goals : Make Mobile Hamburger Menu
 - View More button should load more blog articles
 
