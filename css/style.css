@@ -116,6 +116,7 @@ h3 {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
+
 .mobile-only {
   display: none;
 }
@@ -171,6 +172,7 @@ header {
   .article {
     padding: 16rem 0 var(--spacing-6) var(--spacing-6);
   }
+
   .article h1 {
     max-width: 700px;
   }
@@ -229,6 +231,14 @@ span {
   }
   .blog-article:nth-child(6) {
     grid-area: a6;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
 
