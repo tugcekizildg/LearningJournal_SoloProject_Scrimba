@@ -6,13 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Learning Journal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <div class="container flex">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/logo.svg" alt="My Learning Journal Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-items flex">
+                    <li class="nav-link"><a href="index.html">Home</a></li>
+                    <li class="nav-link active"><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about">
+                <img src="/images/scrimba-user.png" alt="A picture of Roku" class="about-img">
+                <div class="about-text">
+                    <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
+                    <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump
+                        over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet
+                        like-minded peers.</p>
+                </div>
+            </section>
+            <section class="info">
+                <div class="info-text">
+                    <h2>How I stay committed to learning</h2>
+                    <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then
+                        try
+                        to create simple projects using what I learned or work new techniques into existing projects.
+                    </p>
+                    <p>While that was fun, I felt like it would be helpful to share what I was learning and most things
+                        about my journey with the world.</p>
+                </div>
+                <div class="info-text">
+                    <h2>How I got started</h2>
+                    <p>I started simple and gradually grew my learning journal site. I would take notes about what I was
+                        learning. After each learning session, I'd use my notes to not only reflect on what I learned
+                        but also write short summaries of what I learned using my own words.</p>
+                    <p>That helped me grok what I was learning, and I realized that posting my learning summaries was
+                        also helping others learn and stay motivated.</p>
+                </div>
+            </section>
+            <h2 class="recent-posts-title">Recent Posts</h2>
+            <section class="article-blog">
+                <!-- Article 1 -->
+                <article>
+                    <img src="/images/article-image-01.png" alt="Laptop stands on a desk and VSCode is open."
+                        class="article-img">
+                    <span>JULY 23, 2022</span>
+                    <h2>Blog one</h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                        months
+                        of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <!-- Article 2 -->
+                <article>
+                    <img src="/images/article-image-02.png" alt="There is a person holding a light bulb at sunset."
+                        class="article-img">
+                    <span>JULY 23, 2022</span>
+                    <h2>Blog two</h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                        months
+                        of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <!-- Article 3 -->
+                <article>
+                    <img src="/images/article-image-03.png" alt="There is a laptop on a desk." class="article-img">
+                    <span>JULY 23, 2022</span>
+                    <h2>Blog three</h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                        months
+                        of learning in the Frontend Developer Career Path.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h3>My Learning Journal</h3>
+        <p>Copyright ©2022</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
